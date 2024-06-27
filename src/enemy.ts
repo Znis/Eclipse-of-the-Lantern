@@ -75,7 +75,7 @@ export class Enemy {
     if (dist > stateVariables.lantern.maxRadiusInnerCircle * 2) {
       this.movement_speed = this.default_movement_speed * 2;
       this.damage = this.default_damage * 2;
-      this.health = this.default_health * 2;
+      this.health = this.health < this.default_health ? this.health : this.default_health * 2;
     } else {
       this.movement_speed = this.default_movement_speed;
       this.damage = this.default_damage;
