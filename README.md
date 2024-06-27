@@ -5,7 +5,7 @@ Eclipse of the Lantern is an exhilarating action-adventure pixel game set in a w
 
 Good Luck and Have Fun!
 
-Click [Eclipse of the Lantern](https://znis.github.io/LF-SE-Fellowship-2024-Minor-Project-Eclipse-of-the-Lantern/) to play the game.
+Click [Eclipse of the Lantern](https://thriving-souffle-4fbf68.netlify.app/) to play the game.
 
 ## Key Features
 
