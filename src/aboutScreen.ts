@@ -112,7 +112,7 @@ Good luck and have fun!`;
     ctx.font = "18px Outfit";
     ctx.fillStyle = "#222";
     instructionLines.forEach((line, index) => {
-      ctx.fillText(line, canvas.width / 2, y + (index + 12) * lineHeight + 4);
+      ctx.fillText(line, canvas.width / 2, 0.35 * canvas.height + index * lineHeight + 50);
     });
 
     ctx.fillStyle = this.color;
