@@ -161,7 +161,7 @@ Good luck and have fun!`;
     ctx.stroke();
 
     buttonX = canvas.width - 170 - 0.1 * canvas.width;
-    buttonY = canvas.height - buttonHeight - 120;
+    buttonY = 0.9 * canvas.height - buttonHeight - 120;
 
     this.isHoveringMuteButton
       ? (ctx.fillStyle = "red")
