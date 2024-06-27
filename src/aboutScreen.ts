@@ -118,7 +118,7 @@ Good luck and have fun!`;
     ctx.fillStyle = this.color;
 
     let buttonX = canvas.width - 170 - 0.1 * canvas.width;
-    let buttonY = canvas.height - 100;
+    let buttonY = 0.9 * canvas.height;
     const buttonWidth = 150;
     const buttonHeight = 40;
     const buttonRadius = 10;
