@@ -118,7 +118,7 @@ Good luck and have fun!`;
     ctx.fillStyle = this.color;
 
     let buttonX = canvas.width - 170 - 0.1 * canvas.width;
-    let buttonY = 0.9 * canvas.height;
+    let buttonY = 0.8 * canvas.height;
     const buttonWidth = 150;
     const buttonHeight = 40;
     const buttonRadius = 10;
@@ -161,7 +161,7 @@ Good luck and have fun!`;
     ctx.stroke();
 
     buttonX = canvas.width - 170 - 0.1 * canvas.width;
-    buttonY = 0.9 * canvas.height - buttonHeight - 120;
+    buttonY = 0.8 * canvas.height - buttonHeight - 20;
 
     this.isHoveringMuteButton
       ? (ctx.fillStyle = "red")
